@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "16263398e0d4f9cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 - Areas/Placeholder.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 - Areas/Self Improvement/202404140011 YouTube - Obsidian Vault.md",
+                "file": "02 - Areas/Placeholder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 - Areas/Self Improvement/202404140011 YouTube - Obsidian Vault.md",
+                "file": "02 - Areas/Placeholder.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 - Areas/Self Improvement/202404140011 YouTube - Obsidian Vault.md"
+                "file": "02 - Areas/Placeholder.md"
               }
             }
           },
@@ -190,10 +203,11 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "1da534d7aad70395",
+  "active": "16263398e0d4f9cc",
   "lastOpenFiles": [
-    "06 - Daily/20240413.md",
+    "06 - Daily/20240414.md",
     "02 - Areas/Self Improvement/202404140011 YouTube - Obsidian Vault.md",
+    "06 - Daily/20240413.md",
     "02 - Areas/Self Improvement",
     "02 - Areas/Languages",
     "02 - Areas/Health Care",
@@ -204,7 +218,6 @@
     "99 - Meta/00 - Templates/(TEMPLATE) Daily.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Unique.md",
     "99 - Meta/00 - Templates/(TEMPLATE) Daily (Vanilla).md",
-    "06 - Daily/20240414.md",
     "06 - Daily/Placeholder.md",
     "99 - Meta/Preloaded Classes/202401211512 Notebook CSS Classes.md",
     "99 - Meta/Preloaded Classes/202403091325 General Tweaks CSS Classes.md"

@@ -1,5 +1,5 @@
 /*------------------------------------------------------------------------------
-                     Daily Note Themes by CyanVoxel v1.0.5
+                     Daily Note Themes by CyanVoxel v1.0.0
 
 These are a set of 7 main CSS classes that can be used to apply individual color
 schemes to daily notes for each day of the week.
@@ -8,7 +8,7 @@ the main "day of the week" classes.
 
 NOTE: By default, this snippet relies on the "Bai Jamjuree" or
 "JetBrainsMono Nerd Font Mono" fonts. If you don't wish to use these, then just
-change or remove those font-family lines from this snippet.
+remove those font-family lines from this snippet.
                 
 ------------------------------------------------------------------------------*/
 :root {
@@ -47,37 +47,37 @@ change or remove those font-family lines from this snippet.
   --pill-cover-hover: color-mix(in srgb, var(--highlight) 60%, transparent);
 }
 
-.sunday, .Sunday {
+.sunday {
   --highlight: #f39caa;
   --primary: #f6466f;
   --dark: #2d0916;
 }
-.monday, .Monday {
+.monday {
   --highlight: #fcadaa;
   --primary: #f65848;
   --dark: #3c0e0b;
 }
-.tuesday, .Tuesday {
+.tuesday {
   --highlight: #aedbfa;
   --primary: #3b87f0;
   --dark: #070615;
 }
-.wednesday, .Wednesday {
+.wednesday {
   --highlight: #fff3c4;
   --primary: #ffd63d;
   --dark: #2c1404;
 }
-.thursday, .Thursday {
+.thursday {
   --highlight: #f7b79b;
   --primary: #ed6022;
   --dark: #210b04;
 }
-.friday, .Friday {
+.friday {
   --highlight: #e9f9b7;
   --primary: #92e649;
   --dark: #192108;
 }
-.saturday, .Saturday{
+.saturday {
   --highlight: #f39caa;
   --primary: #e22c3c;
   --dark: #100305;
@@ -110,7 +110,7 @@ change or remove those font-family lines from this snippet.
   background-color: var(--primary);
   color: var(--dark);
   /* border-color: var(--primary); */
-  /* font-family: "JetBrainsMono Nerd Font Mono", "JetBrains Mono", monospace; */
+  /* font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", monospace; */
   font-weight: 900;
   margin-bottom: 0;
   padding-top: 0;
@@ -144,13 +144,13 @@ change or remove those font-family lines from this snippet.
   margin-right: auto !important;
 }
 
-:is(.sunday, .Sunday,
-.monday, .Monday,
-.tuesday, .Tuesday,
-.wednesday, .Wednesday,
-.thursday, .Thursday,
-.friday, .Friday,
-.saturday, .Saturday
+:is(.sunday,
+.monday,
+.tuesday,
+.wednesday,
+.thursday,
+.friday,
+.saturday
   )
   svg {
   color: color-mix(in srgb, var(--highlight) 60%, transparent);
