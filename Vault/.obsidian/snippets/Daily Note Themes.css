@@ -86,14 +86,14 @@ change or remove those font-family lines from this snippet.
 .daily :is(h1, .HyperMD-header.HyperMD-header-1) {
   color: var(--primary);
   text-align: center;
-  font-size: 60px;
+  font-size: 40px;
   font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
   padding: 0 !important;
 }
 .daily :is(h2, .HyperMD-header.HyperMD-header-2) {
   color: var(--highlight);
   text-align: center;
-  font-size: 30px;
+  font-size: 24px;
   font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
   font-style: italic;
   padding: 0 !important;
